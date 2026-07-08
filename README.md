@@ -20,7 +20,6 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 ![REST API](https://img.shields.io/badge/REST_API-Backend-009688)
 ![Middleware](https://img.shields.io/badge/Middleware-Protected_Routes-FF9800)
 ![Lucide React](https://img.shields.io/badge/Lucide-Icons-F56565)
-![React Icons](https://img.shields.io/badge/React_Icons-Icons-61DAFB?logo=react)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
