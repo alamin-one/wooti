@@ -2,7 +2,9 @@ import { getOrder } from '@/actions/orderAction';
 import AppBreadcrumb from '@/components/shared/AppBreadcrumb';
 import StatusBar from '@/components/shared/StatusBar';
 import UserResentOrderList from '@/components/shared/UserResentOrderList';
+import authOptions from '@/libs/authOptions';
 import { LayoutDashboard, ShoppingBag, Heart, Wallet } from 'lucide-react';
+import { getServerSession } from 'next-auth';
 import Link from 'next/link';
 
 const style = {
@@ -10,6 +12,8 @@ const style = {
 };
 
 const DashboardPage = async () => {
+  const { token } = await getServerSession(authOptions);
+
   const { order } = await getOrder();
   const orderStatus = order?.map(item => item.orderStatus);
   const TotalSpent = order.reduce((acc, curr) => {
@@ -30,7 +34,7 @@ const DashboardPage = async () => {
 
       <div className="bg-whiteCustom border border-gray-200 rounded-xl p-5">
         <div className="mb-5 ">
-          <h5>Welcome back, Jon</h5>
+          <h5>Welcome back, {token?.name}</h5>
           <p>Here&apos;s what&apos;s happening with your account</p>
         </div>
 
