@@ -1,6 +1,9 @@
-#  Next Commerce — Full Stack E-Commerce
+# Next Commerce — Full Stack E-Commerce
 
-A modern full-stack e-commerce web application built with **Next.js App Router**, **MongoDB**, **NextAuth**, **Stripe**, and **Cloudinary**. It delivers a fast, secure, and responsive shopping experience with complete user and admin functionality.
+A modern full-stack e-commerce web application built with **Next.js App
+Router**, **MongoDB**, **NextAuth**, **Stripe**, and **Cloudinary**. It delivers
+a fast, secure, and responsive shopping experience with complete user and admin
+functionality.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
@@ -24,7 +27,7 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 
 ---
 
-##  Live Demo
+## Live Demo
 
 **Live Preview:** https://your-project.vercel.app
 
@@ -32,7 +35,8 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 
 ## ✨ Features
 
-###  Authentication
+### Authentication
+
 - Email & Password Authentication
 - Google OAuth Login
 - Email OTP Verification
@@ -41,7 +45,8 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 - Protected Routes
 - Role-based Authorization (User & Admin)
 
-###  Shopping
+### Shopping
+
 - Product Listing
 - Product Search
 - Category Filtering
@@ -52,13 +57,15 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 - Stripe Payment Gateway
 - Order Success Page
 
-###  Order Management
+### Order Management
+
 - Place Orders
 - Order History
 - Single Order Details
 - Order Status Tracking
 
-###   Admin Panel
+### Admin Panel
+
 - Dashboard Overview
 - Product Management (CRUD)
 - Category Management (CRUD)
@@ -66,7 +73,8 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 - Order Management
 - Update Order Status
 
-###  Other Features
+### Other Features
+
 - Image Upload with Cloudinary
 - REST API
 - Server Actions
@@ -80,24 +88,24 @@ A modern full-stack e-commerce web application built with **Next.js App Router**
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-| Frontend | Backend & Services |
-|----------|--------------------|
+| Frontend                | Backend & Services     |
+| ----------------------- | ---------------------- |
 | Next.js 16 (App Router) | Next.js Server Actions |
-| React 19 | MongoDB |
-| Tailwind CSS | Mongoose |
-| Shadcn/UI | NextAuth |
-| React Hook Form | Stripe |
-| Lucide React | Cloudinary |
-| Zod | Nodemailer |
-| SweetAlert2 | bcryptjs |
-| Axios | REST API |
-| React Icons | Middleware |
+| React 19                | MongoDB                |
+| Tailwind CSS            | Mongoose               |
+| Shadcn/UI               | NextAuth               |
+| React Hook Form         | Stripe                 |
+| Lucide React            | Cloudinary             |
+| Zod                     | Nodemailer             |
+| SweetAlert2             | bcryptjs               |
+| Axios                   | REST API               |
+| React Icons             | Middleware             |
 
 ---
 
-##   Project Structure
+## Project Structure
 
 ```text
 src/
@@ -158,7 +166,7 @@ src/
 
 ---
 
-##   Getting Started
+## Getting Started
 
 ### Clone the Repository
 
@@ -192,7 +200,7 @@ http://localhost:3000
 
 ---
 
-##   Environment Variables
+## Environment Variables
 
 Create a `.env.local` file in the project root.
 
@@ -220,22 +228,22 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 ---
 
-##   Screenshots
+## Screenshots
 
-
- 
-/images/home_SS_.png
- 
-
+<p float="left">
+  <img src="./public/images/home_.png" width="30%" />
+  <img src="./public/images/shop_.png" width="30%" />
+  <img src="./public/images/admin_das_.png" width="30%" />
+</p>
 ---
 
-##   Repository
+## Repository
 
 https://github.com/alamin-one/wooti
 
 ---
 
-##   Developed By
+## Developed By
 
 **Al-Amin**
 
@@ -243,12 +251,12 @@ GitHub: https://github.com/alamin-one
 
 ---
 
-##   License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-##   Support
+## Support
 
-If you found this project helpful, consider giving it a   on GitHub.
+If you found this project helpful, consider giving it a on GitHub.
