@@ -230,12 +230,16 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 ## Screenshots
 
-<p float="left">
-  <img src="./public/images/home_.png" width="50%" />
-  <img src="./public/images/shop_.png" width="50%" />
-  <img src="./public/images/admin_das_.png" width="50%" />
-  <img src="./public/images/user_des_.png" width="50%" />
-</p>
+<table>
+  <tr>
+    <td><img src="./public/images/home_.png" width="100%" /></td>
+    <td><img src="./public/images/shop_.png" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/images/admin_das_.png" width="100%" /></td>
+    <td><img src="./public/images/user_des_.png" width="100%" /></td>
+  </tr>
+</table>
 ---
 
 ## Repository
