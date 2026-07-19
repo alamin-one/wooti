@@ -72,6 +72,7 @@ export const submitProduct = async (fileData, prevData, formData) => {
       isNew: isnew === 'true',
     });
     revalidatePath('/admin/products');
+    revalidatePath('/shop');
 
     return {
       success: true,
@@ -125,6 +126,7 @@ export const getProducts = async params => {
       .skip(skip)
       .limit(size)
       .sort({ createdAt: -1 });
+    revalidatePath('/admin/products');
     revalidatePath('/shop');
 
     if (!product) {
@@ -217,6 +219,7 @@ export const deleteProduct = async (productID, productImages) => {
     await Promise.allSettled(res);
 
     revalidatePath('/admin/products');
+    revalidatePath('/shop');
     return {
       success: true,
       message: 'Product Delete successfully',
