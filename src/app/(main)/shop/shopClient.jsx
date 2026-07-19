@@ -13,7 +13,7 @@ const ShopClient = ({ category }) => {
   const [totalPage, setTotalPage] = useState();
 
   const params = useSearchParams();
-
+  const paramsString = params.toString();
   useEffect(() => {
     const fnc = async () => {
       const rawParams = Object.fromEntries(params);
@@ -32,7 +32,8 @@ const ShopClient = ({ category }) => {
       setTotalPage(totalPage);
     };
     fnc();
-  }, [params]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [paramsString]);
 
   return (
     <>
