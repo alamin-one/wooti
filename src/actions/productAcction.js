@@ -125,6 +125,7 @@ export const getProducts = async params => {
       .skip(skip)
       .limit(size)
       .sort({ createdAt: -1 });
+    revalidatePath('/shop');
 
     if (!product) {
       return {
@@ -228,4 +229,3 @@ export const deleteProduct = async (productID, productImages) => {
     };
   }
 };
-  
