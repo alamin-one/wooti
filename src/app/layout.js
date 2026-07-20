@@ -19,7 +19,7 @@ export const metadata = {
   title: "Wooti | Modern E-Commerce Platform",
 
   description:
-    "Wooti is a modern e-commerce platform where users can explore quality products, enjoy a smooth shopping experience, and shop with confidence.",
+    "Wooti is a modern e-commerce platform where users can explore quality products and enjoy a smooth shopping experience.",
 
   metadataBase: new URL("https://alamin-wooti.vercel.app/"),
 
@@ -27,7 +27,7 @@ export const metadata = {
     title: "Wooti | Modern E-Commerce Platform",
 
     description:
-      "Wooti is a modern e-commerce platform with quality products, smooth navigation, and a seamless shopping experience.",
+      "A modern e-commerce platform built for a smooth and simple shopping experience.",
 
     url: "https://alamin-wooti.vercel.app/",
 
@@ -38,7 +38,7 @@ export const metadata = {
         url: "/images/wooti.webp",
         width: 1200,
         height: 630,
-        alt: "Wooti E-Commerce Platform Preview",
+        alt: "Wooti E-Commerce Preview",
       },
     ],
 
@@ -53,9 +53,7 @@ export const metadata = {
     description:
       "A modern e-commerce platform built for a smooth and simple shopping experience.",
 
-    images: [
-      "/images/wooti.webp",
-    ],
+    images: ["/images/wooti.webp"],
   },
 
   robots: {
