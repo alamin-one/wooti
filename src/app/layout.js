@@ -16,12 +16,12 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://alamin-wooti.vercel.app"),
+
   title: "Wooti | Modern E-Commerce Platform",
 
   description:
     "Wooti is a modern e-commerce platform where users can explore quality products and enjoy a smooth shopping experience.",
-
-  metadataBase: new URL("https://alamin-wooti.vercel.app/"),
 
   openGraph: {
     title: "Wooti | Modern E-Commerce Platform",
@@ -29,13 +29,13 @@ export const metadata = {
     description:
       "A modern e-commerce platform built for a smooth and simple shopping experience.",
 
-    url: "https://alamin-wooti.vercel.app/",
+    url: "https://alamin-wooti.vercel.app",
 
     siteName: "Wooti",
 
     images: [
       {
-        url: "/images/wooti.webp",
+        url: "https://alamin-wooti.vercel.app/images/wooti.webp",
         width: 1200,
         height: 630,
         alt: "Wooti E-Commerce Preview",
@@ -53,12 +53,9 @@ export const metadata = {
     description:
       "A modern e-commerce platform built for a smooth and simple shopping experience.",
 
-    images: ["/images/wooti.webp"],
-  },
-
-  robots: {
-    index: true,
-    follow: true,
+    images: [
+      "https://alamin-wooti.vercel.app/images/wooti.webp",
+    ],
   },
 };
 
