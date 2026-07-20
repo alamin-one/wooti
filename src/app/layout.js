@@ -16,9 +16,52 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata = {
-  title: 'Wooti',
+  title: "Wooti | Modern E-Commerce Platform",
+
   description:
-    'Wooti - Your ultimate shopping destination for quality products at the best prices.',
+    "Wooti is a modern e-commerce platform where users can explore quality products, enjoy a smooth shopping experience, and shop with confidence.",
+
+  metadataBase: new URL("https://alamin-wooti.vercel.app/"),
+
+  openGraph: {
+    title: "Wooti | Modern E-Commerce Platform",
+
+    description:
+      "Wooti is a modern e-commerce platform with quality products, smooth navigation, and a seamless shopping experience.",
+
+    url: "https://alamin-wooti.vercel.app/",
+
+    siteName: "Wooti",
+
+    images: [
+      {
+        url: "/images/wooti.webp",
+        width: 1200,
+        height: 630,
+        alt: "Wooti E-Commerce Platform Preview",
+      },
+    ],
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Wooti | Modern E-Commerce Platform",
+
+    description:
+      "A modern e-commerce platform built for a smooth and simple shopping experience.",
+
+    images: [
+      "/images/wooti.webp",
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
