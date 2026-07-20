@@ -104,6 +104,19 @@ functionality.
 
 ---
 
+
+---
+
+## Screenshots<table>
+
+
+![Wooti](./public/images/wooti.webp)
+
+---
+
+
+
+
 ## Project Structure
 
 ```text
@@ -225,13 +238,6 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 ```
 
----
-
-## Screenshots<table>
-
-![Wooti](./public/images/wooti.webp)
-
----
 
 ## Repository
 
