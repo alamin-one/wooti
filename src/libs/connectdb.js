@@ -1,29 +1,40 @@
 import mongoose from 'mongoose';
 
 const MONGO_URI = process.env.MONGO_URI;
-let cached = {};
+
+if (!MONGO_URI) {
+  throw new Error(
+    'Please define the MONGO_URI environment variable inside .env.local',
+  );
+}
+
+let cached = global.mongooseConn;
+
+if (!cached) {
+  cached = global.mongooseConn = { connection: null, promise: null };
+}
 
 const connectdb = async () => {
-  if (!MONGO_URI) {
-    throw new Error(
-      'Please define the MONGO_URI environment variable inside .env.local',
-    );
-  }
   if (cached.connection) {
     return cached.connection;
   }
+
   if (!cached.promise) {
     const opts = {
       bufferCommands: false,
+      maxPoolSize: 10,
     };
     cached.promise = mongoose.connect(MONGO_URI, opts);
   }
+
   try {
     cached.connection = await cached.promise;
   } catch (e) {
     cached.promise = undefined;
     throw e;
   }
+
   return cached.connection;
 };
+
 export default connectdb;
