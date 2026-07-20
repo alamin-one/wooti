@@ -229,7 +229,7 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 ## Screenshots<table>
 
-![Wooti](./public/wooti.webp)
+![Wooti](./public/images/wooti.webp)
 
 ---
 
