@@ -29,8 +29,7 @@ functionality.
 
 ## Live Demo
 
-**Live Preview:** https://your-project.vercel.app
-
+**Live Preview:**(https://alamin-wooti.vercel.app/)
 ---
 
 ## ✨ Features
@@ -228,18 +227,10 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 ---
 
-## Screenshots
+## Screenshots<table>
 
-<table>
-  <tr>
-    <td><img src="./public/images/home_.png" width="100%" /></td>
-    <td><img src="./public/images/shop_.png" width="100%" /></td>
-  </tr>
-  <tr>
-    <td><img src="./public/images/admin_das_.png" width="100%" /></td>
-    <td><img src="./public/images/user_des_.png" width="100%" /></td>
-  </tr>
-</table>
+![Wooti](./public/wooti.webp)
+
 ---
 
 ## Repository
